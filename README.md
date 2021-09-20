@@ -10,6 +10,29 @@ LottieFiles provides both free and paid animation for web and mobile application
 4. Open [LottieFiles Web Player](https://lottiefiles.com/web-player) and paste URL in "YOUR LOTTIE JSON URL" input form to auto generate code
 5. Copy code and paste in HTML page
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <lottie-player
+      src="https://assets3.lottiefiles.com/packages/lf20_zhl8lan4.json"
+      background="transparent"
+      speed="1"
+      style="width: 300px; height: 300px"
+      loop
+      autoplay
+    ></lottie-player>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
+```
+
 ## Installation and Usage in React by package manager
 
 From: [lottie web airbnb](https://airbnb.io/lottie/#/web)
